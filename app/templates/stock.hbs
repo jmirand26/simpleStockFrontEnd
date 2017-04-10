@@ -1,0 +1,41 @@
+<h2 class="text-center">Stock Search</h2>
+{{#filter-content content=model  properties="Name" as |fc query|}}
+  <form class="form-inline">
+    <div class="form-group">
+      <label for="companySearchLabel"> Search by Company Name </label>
+      {{input id="companySearch" value=query class="form-control" placeholder="enter company name"}}
+    </div>
+  </form>
+
+<div>
+  <table  class="table table-striped header-fixed" style="border-collapse: collapse">
+    <thead>
+      <tr>     
+        <th>Company</th>
+        <th>Last Sale</th>
+        <th>Market Cap</th>
+        <th>IPO Year</th>
+        <th>Sector</th>
+        <th>industry</th>
+        <th>Exchange</th>
+        <th>Symbol</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each fc as |stock|}}
+        <tr>
+          <td>{{stock.Name}}</td>
+          <td>{{stock.LastSale}}</td>
+          <td>{{stock.MarketCap}}</td>
+          <td>{{stock.IPOyear}}</td>
+          <td>{{stock.Sector}}</td>
+          <td>{{stock.industry}}</td>
+          <td>{{stock.Exchange}}</td>
+          <td>{{#link-to "quote" stock.Symbol}}{{stock.Symbol}}{{/link-to}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
+{{/filter-content}}
+{{outlet}}

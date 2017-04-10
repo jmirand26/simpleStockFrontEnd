@@ -1,0 +1,57 @@
+[
+  {
+    "Symbol": "PIH",
+    "Name": "1347 Property Insurance Holdings, Inc.",
+    "LastSale": 7.75,
+    "MarketCap": "$46.16M",
+    "IPOyear": 2014,
+    "Sector": "Finance",
+    "industry": "Property-Casualty Insurers",
+    "SummaryQuote": "http://www.nasdaq.com/symbol/pih",
+    "Exchange": "NASDAQ"
+  },
+  {
+    "Symbol": "FLWS",
+    "Name": "1-800 FLOWERS.COM, Inc.",
+    "LastSale": 10,
+    "MarketCap": "$655.69M",
+    "IPOyear": 1999,
+    "Sector": "Consumer Services",
+    "industry": "Other Specialty Stores",
+    "SummaryQuote": "http://www.nasdaq.com/symbol/flws",
+    "Exchange": "NASDAQ"
+  },
+  {
+    "Symbol": "FCCY",
+    "Name": "1st Constitution Bancorp (NJ)",
+    "LastSale": 18.35,
+    "MarketCap": "$147.3M",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Savings Institutions",
+    "SummaryQuote": "http://www.nasdaq.com/symbol/fccy",
+    "Exchange": "NASDAQ"
+  },
+  {
+    "Symbol": "SRCE",
+    "Name": "1st Source Corporation",
+    "LastSale": 46,
+    "MarketCap": "$1.24B",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Major Banks",
+    "SummaryQuote": "http://www.nasdaq.com/symbol/srce",
+    "Exchange": "NASDAQ"
+  },
+  {
+    "Symbol": "VNET",
+    "Name": "21Vianet Group, Inc.",
+    "LastSale": 5.45,
+    "MarketCap": "$619.57M",
+    "IPOyear": 2011,
+    "Sector": "Technology",
+    "industry": "Computer Software: Programming, Data Processing",
+    "SummaryQuote": "http://www.nasdaq.com/symbol/vnet",
+    "Exchange": "NASDAQ"
+	}
+]
