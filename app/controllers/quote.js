@@ -34,7 +34,6 @@ export default Ember.Controller.extend({
 
   actions: {
   searchCompany(newValue) {
-    console.log(newValue);
   }
 }
 
