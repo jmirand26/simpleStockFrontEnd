@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model() {
-  //return this.store.findAll('stock');
-  return Ember.$.getJSON('stocks.json')
+  return this.store.findAll('stock');
+  //return Ember.$.getJSON('stocks.json')
 },
 });
